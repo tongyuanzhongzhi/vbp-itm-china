@@ -189,9 +189,11 @@ Full sentence-level read and mechanical citation check completed.
 - ref 5 (Hua Yi Wang 2024 survey) appears to duplicate ref 31 (Huayiwang
   2024 survey). Not deleted to avoid renumbering all subsequent
   citations; the author should merge them and renumber, or delete ref 5.
-- The Chengdu tertiary-hospital case (cardiac surgery DRG overrun
-  ¥890 million, 37% department income decline) has no citation — add a
-  source or mark as illustrative.
+- The Chengdu tertiary-hospital case — RESOLVED. Corrected a 100×
+  numerical error (¥890 million → ¥8.90 million, i.e. 890万元 per the
+  source media report) and rephrased as "a reported case" without a
+  formal citation, since the only available source is an AI-generated
+  media article of low academic authority.
 - UK consultant ratio figures (3.25 → 2.97) could cite ref 17 (BMA pay
   scales).
 
