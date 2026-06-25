@@ -82,6 +82,13 @@ drug price regulation effects on health worker remuneration: descriptive
 evidence from China's health industry wage decline and three-country
 comparison. [Journal TBD]. 2026.
 
+## Archived DOI
+
+**https://doi.org/10.5281/zenodo.20844884**
+
+The manuscript, data, and code are archived on Zenodo (GitHub release
+v1.0.1 of `tongyuanzhongzhi/vbp-itm-china`).
+
 ## Contact
 
 Zhensheng Dai, MD — 20505@shpdh.org

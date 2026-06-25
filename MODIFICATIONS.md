@@ -154,8 +154,10 @@ against NBS official sources:
 1. **Cover letter email vs manuscript email:** both now use
    `20505@shpdh.org` — confirm this is the address for editorial
    correspondence.
-2. **Zenodo archive** the repository and insert the real DOI at
-   acceptance.
+2. **Zenodo archive** — RESOLVED. Repository `tongyuanzhongzhi/vbp-itm-china`
+   created and pushed (public); release v1.0.1 triggered Zenodo archival;
+   DOI **10.5281/zenodo.20844884** inserted into the manuscript Data
+   availability statement, README, and this log.
 3. **Final reference pass:** verify every numbered citation against the
    reference list after any further edits (two mis-matches were fixed,
    but a full mechanical check is advisable before submission).
