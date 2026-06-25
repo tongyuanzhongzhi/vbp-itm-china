@@ -258,3 +258,29 @@ complete; abstract ↔ Table 1 ↔ Discussion key figures consistent
 (−5.2%, +22%, 146266, 8.90 million Chengdu case all consistent across
 sections); cover letter title matches manuscript; verified_data.py,
 analysis script, STROBE, HIGHLIGHTS all aligned with main text.
+
+## M. Reference authenticity verification (2026-06-25, sixth pass)
+
+CrossRef/PubMed verification of all academic references. **ref 1 found
+incorrect and corrected:**
+- Was: "Yao J, et al. ... J Pharm Policy Pract. 2022;15(1):46."
+- Correct: "Chen Y, Ji X, Xiao H, Unger JM, Cai Y, Mao Z, et al. Impact
+  of the pilot volume-based drug purchasing policy in China: interrupted
+  time-series analysis with controls. Front Pharmacol. 2021;12:804237."
+  (DOI 10.3389/fphar.2021.804237, verified via CrossRef)
+
+All other academic references verified accurate via CrossRef/PubMed:
+ref 9 (Hamilton 1989 Econometrica), 10/11 (Scheffer Nature 2009/2001),
+20 (Dempster 1977 JRSS B), 21 (Cobb 1978 Behav Sci), 22 (Wagner 2002
+J Clin Pharm Ther), 23 (Abadie 2010 JASA), 24 (Chow 1960 Econometrica),
+25 (Granger 1969 Econometrica), 26 (Burnham-Anderson), 27 (Scheffler
+2008 Bull WHO), 38 (Kwon-Godman 2017), 39 (Robinson 2001 Milbank Q),
+40 (Eggleston-Hsieh 2004), 43 (Baron-Kenny 1986), 44/45 (Bai-Perron
+1998/2003), 46 (Cameron-Miller 2015), 47 (STROBE Lancet 2007, PMID
+18064739). Government/statistical reports (NBS, NHC, MHLW, provincial
+bureaus, NHSA, BMA, KMA, OECD, Medscape, CMDA, Dingxiangyuan,
+Huayiwang) are public official sources with URLs documented in
+README/verified_data.py.
+
+In-text citation positions re-verified: all 48 citations point to the
+correct reference content (1-to-1 content match confirmed).
