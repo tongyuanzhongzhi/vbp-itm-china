@@ -229,3 +229,32 @@ Full sentence-level read and mechanical citation check completed.
    cuts would require removing evidence streams (not recommended).
 4. **Verified post-edit:** 6 figures embedded, 6 tables present, ref
    list 1–48 continuous, no stray old citations, superscripts render.
+
+## L. Citation renumbering correction (2026-06-25, fifth pass — final QA)
+
+Final QA uncovered a **systematic citation-numbering error** from the
+earlier renumbering pass. When ref 31 was deleted, citations for
+refs 6–30 had been incorrectly shifted down by 1 (the renumbering
+script applied the "delete ref 5" logic to all refs ≥6, but only
+refs ≥32 should have shifted, since ref 31 was the one deleted and
+refs 1–30 stayed in place). This caused 19 in-text citations to point
+to the wrong reference (e.g., JPA cited as 5 instead of 6, CMDA as 28
+instead of 29, Dingxiangyuan as 29 instead of 30, Scheffler as 26
+instead of 27).
+
+**Corrected (19 sites):** JPA 5→6, MHLW 7→8, NBS-2024/2025 12,13→13,14,
+Provincial-Edu 14→15, KMA 15→16, BMA 16→17, OECD 17→18, Medscape 18→19,
+Dempster 19→20, Cobb 20→21, Wagner 21→22, Abadie 22→23, Chow 23→24,
+Granger 24→25, Burnham 25→26, Scheffler 26→27, BMA-pay 27→28, CMDA
+28→29, Dingxiangyuan 29→30, plus the multi-citation ranges
+(6–8, 16–19, 15/17/18, 16/27) realigned. Huayiwang correctly stays at 5;
+all refs ≥31 were already correct.
+
+**Verified post-correction:** all 48 references now cited exactly once
+and content-matched to their in-text context; 35 superscript runs; 6
+figures and 6 tables all referenced; no double punctuation, no CJK
+punctuation, no TBD/placeholder residue; Figure/Table cross-references
+complete; abstract ↔ Table 1 ↔ Discussion key figures consistent
+(−5.2%, +22%, 146266, 8.90 million Chengdu case all consistent across
+sections); cover letter title matches manuscript; verified_data.py,
+analysis script, STROBE, HIGHLIGHTS all aligned with main text.
