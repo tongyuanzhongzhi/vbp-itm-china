@@ -1,0 +1,212 @@
+{
+  "source": "中国卫生健康统计年鉴 4-4-1 公立医院收入与支出(平均每所,万元)",
+  "series": {
+    "2010": {
+      "total_rev": 7179.3,
+      "med_rev": 6440.1,
+      "op_drug": 1212.1,
+      "ip_drug": 1788.6,
+      "total_cost": 6872.0,
+      "drug_cost": 2488.1,
+      "personnel": 1650.0,
+      "ip_visit_drug_cost_yuan": 2784.3
+    },
+    "2014": {
+      "total_rev": 14610.2,
+      "med_rev": 13149.0,
+      "op_drug": 2242.3,
+      "ip_drug": 3306.4,
+      "total_cost": 13939.8,
+      "drug_cost": 4861.0,
+      "personnel": 3094.5,
+      "ip_visit_drug_cost_yuan": 3187.1
+    },
+    "2015": {
+      "total_rev": 16498.5,
+      "med_rev": 14612.4,
+      "op_drug": 2441.1,
+      "ip_drug": 3529.3,
+      "total_cost": 15996.5,
+      "drug_cost": 5322.1,
+      "personnel": 4900.6,
+      "ip_visit_drug_cost_yuan": 3259.6
+    },
+    "2016": {
+      "total_rev": 18915.7,
+      "med_rev": 16721.5,
+      "op_drug": 2664.1,
+      "ip_drug": 3814.7,
+      "total_cost": 18386.1,
+      "drug_cost": 5916.2,
+      "personnel": 5829.8,
+      "ip_visit_drug_cost_yuan": 3195.6
+    },
+    "2017": {
+      "total_rev": 21452.8,
+      "med_rev": 18909.0,
+      "op_drug": 2810.7,
+      "ip_drug": 3869.0,
+      "total_cost": 20968.1,
+      "drug_cost": 6360.1,
+      "personnel": 6984.2,
+      "ip_visit_drug_cost_yuan": 2955.6
+    },
+    "2018": {
+      "total_rev": 24182.9,
+      "med_rev": 21200.8,
+      "op_drug": 3019.3,
+      "ip_drug": 3915.8,
+      "total_cost": 23546.7,
+      "drug_cost": 6722.6,
+      "personnel": 8092.3,
+      "ip_visit_drug_cost_yuan": 2781.9
+    },
+    "2019": {
+      "total_rev": 27552.1,
+      "med_rev": 24159.9,
+      "op_drug": 3450.1,
+      "ip_drug": 4342.7,
+      "total_cost": 26271.7,
+      "drug_cost": 7712.5,
+      "personnel": 9448.8,
+      "ip_visit_drug_cost_yuan": 2854.4
+    },
+    "2020": {
+      "total_rev": 28289.9,
+      "med_rev": 22723.8,
+      "op_drug": 3188.6,
+      "ip_drug": 3858.5,
+      "total_cost": 26482.3,
+      "drug_cost": 6957.2,
+      "personnel": 9663.2,
+      "ip_visit_drug_cost_yuan": 2953.2
+    },
+    "2021": {
+      "total_rev": 31193.2,
+      "med_rev": 26394.0,
+      "op_drug": 3591.6,
+      "ip_drug": 4178.4,
+      "total_cost": 29746.9,
+      "drug_cost": 7555.2,
+      "personnel": 10771.5,
+      "ip_visit_drug_cost_yuan": 2895.3
+    },
+    "2022": {
+      "total_rev": 30830.2,
+      "med_rev": 25217.0,
+      "op_drug": 3573.5,
+      "ip_drug": 3782.0,
+      "total_cost": 29893.5,
+      "drug_cost": 7181.9,
+      "personnel": 11216.6,
+      "ip_visit_drug_cost_yuan": 2743.4
+    },
+    "2023": {
+      "total_rev": 34768.4,
+      "med_rev": 29079.1,
+      "op_drug": 4026.7,
+      "ip_drug": 4091.7,
+      "total_cost": 33033.7,
+      "drug_cost": 7920.4,
+      "personnel": 12571.4,
+      "ip_visit_drug_cost_yuan": 2407.2
+    },
+    "2024": {
+      "total_rev": 36479.6,
+      "med_rev": 30917.9,
+      "op_drug": 4425.9,
+      "ip_drug": 3771.2,
+      "total_cost": 35003.5,
+      "drug_cost": 7863.3,
+      "personnel": 13709.5,
+      "ip_visit_drug_cost_yuan": 2027.7
+    }
+  },
+  "computed": {
+    "2010": {
+      "drug_rev_total": 3000.7,
+      "drug_share_of_med_rev_pct": 46.6,
+      "drug_share_of_total_rev_pct": 41.8,
+      "personnel_share_of_cost_pct": 24.0,
+      "drug_cost_share_pct": 36.2
+    },
+    "2014": {
+      "drug_rev_total": 5548.7,
+      "drug_share_of_med_rev_pct": 42.2,
+      "drug_share_of_total_rev_pct": 38.0,
+      "personnel_share_of_cost_pct": 22.2,
+      "drug_cost_share_pct": 34.9
+    },
+    "2015": {
+      "drug_rev_total": 5970.4,
+      "drug_share_of_med_rev_pct": 40.9,
+      "drug_share_of_total_rev_pct": 36.2,
+      "personnel_share_of_cost_pct": 30.6,
+      "drug_cost_share_pct": 33.3
+    },
+    "2016": {
+      "drug_rev_total": 6478.8,
+      "drug_share_of_med_rev_pct": 38.7,
+      "drug_share_of_total_rev_pct": 34.3,
+      "personnel_share_of_cost_pct": 31.7,
+      "drug_cost_share_pct": 32.2
+    },
+    "2017": {
+      "drug_rev_total": 6679.7,
+      "drug_share_of_med_rev_pct": 35.3,
+      "drug_share_of_total_rev_pct": 31.1,
+      "personnel_share_of_cost_pct": 33.3,
+      "drug_cost_share_pct": 30.3
+    },
+    "2018": {
+      "drug_rev_total": 6935.1,
+      "drug_share_of_med_rev_pct": 32.7,
+      "drug_share_of_total_rev_pct": 28.7,
+      "personnel_share_of_cost_pct": 34.4,
+      "drug_cost_share_pct": 28.6
+    },
+    "2019": {
+      "drug_rev_total": 7792.8,
+      "drug_share_of_med_rev_pct": 32.3,
+      "drug_share_of_total_rev_pct": 28.3,
+      "personnel_share_of_cost_pct": 36.0,
+      "drug_cost_share_pct": 29.4
+    },
+    "2020": {
+      "drug_rev_total": 7047.1,
+      "drug_share_of_med_rev_pct": 31.0,
+      "drug_share_of_total_rev_pct": 24.9,
+      "personnel_share_of_cost_pct": 36.5,
+      "drug_cost_share_pct": 26.3
+    },
+    "2021": {
+      "drug_rev_total": 7770.0,
+      "drug_share_of_med_rev_pct": 29.4,
+      "drug_share_of_total_rev_pct": 24.9,
+      "personnel_share_of_cost_pct": 36.2,
+      "drug_cost_share_pct": 25.4
+    },
+    "2022": {
+      "drug_rev_total": 7355.5,
+      "drug_share_of_med_rev_pct": 29.2,
+      "drug_share_of_total_rev_pct": 23.9,
+      "personnel_share_of_cost_pct": 37.5,
+      "drug_cost_share_pct": 24.0
+    },
+    "2023": {
+      "drug_rev_total": 8118.4,
+      "drug_share_of_med_rev_pct": 27.9,
+      "drug_share_of_total_rev_pct": 23.3,
+      "personnel_share_of_cost_pct": 38.1,
+      "drug_cost_share_pct": 24.0
+    },
+    "2024": {
+      "drug_rev_total": 8197.1,
+      "drug_share_of_med_rev_pct": 26.5,
+      "drug_share_of_total_rev_pct": 22.5,
+      "personnel_share_of_cost_pct": 39.2,
+      "drug_cost_share_pct": 22.5
+    }
+  },
+  "note_ip_visit_drug": "住院病人次均医药费中的药费(元),来自4-4-1表,区别于ip_drug(住院药品收入,万元/院)"
+}

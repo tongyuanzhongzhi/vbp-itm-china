@@ -1,0 +1,49 @@
+{
+  "Mining": {
+    "2024": 140706,
+    "2023": 135025,
+    "growth_pct": 4.2
+  },
+  "Manufacturing": {
+    "2024": 107987,
+    "2023": 103932,
+    "growth_pct": 3.9
+  },
+  "Construction": {
+    "2024": 89519,
+    "2023": 85804,
+    "growth_pct": 4.3
+  },
+  "Transport": {
+    "2024": 127889,
+    "2023": 122705,
+    "growth_pct": 4.2
+  },
+  "Finance": {
+    "2024": 201883,
+    "2023": 197663,
+    "growth_pct": 2.1
+  },
+  "Real_Estate": {
+    "2024": 91912,
+    "2023": 91932,
+    "growth_pct": 0.0
+  },
+  "Scientific_Research": {
+    "2024": 175425,
+    "2023": 171447,
+    "growth_pct": 2.3
+  },
+  "Education": {
+    "2024": 126185,
+    "2023": 124067,
+    "growth_pct": 1.7
+  },
+  "Health_Social_Work": {
+    "2024": 143173,
+    "2023": 143818,
+    "growth_pct": -0.4
+  },
+  "_source": "https://www.stats.gov.cn/sj/zxfb/202505/t20250516_1959826.html",
+  "_note": "NBS 2024 wage release; 19 industries, urban non-private units, yuan/year"
+}

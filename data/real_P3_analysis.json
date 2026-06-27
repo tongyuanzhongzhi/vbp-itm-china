@@ -1,0 +1,283 @@
+{
+  "data_source": "NBS 19-industry wages 2016-2024 (industry_wages_2016-2024.json)",
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "industries": [
+    "Health",
+    "Education",
+    "Manufacturing",
+    "Finance",
+    "IT",
+    "Scientific_Research",
+    "Public_Admin"
+  ],
+  "bai_perron_ratio_change": {
+    "Health": {
+      "supF": 1.44,
+      "supF_year": 2020,
+      "bic_selected_break": null,
+      "bic_no_break": -62.28,
+      "bic_1break": -62.28,
+      "delta_BIC": 0.0,
+      "verdict": "no significant break"
+    },
+    "Education": {
+      "supF": 0.76,
+      "supF_year": 2021,
+      "bic_selected_break": null,
+      "bic_no_break": -56.81,
+      "bic_1break": -56.81,
+      "delta_BIC": 0.0,
+      "verdict": "no significant break"
+    },
+    "Manufacturing": {
+      "supF": 2.87,
+      "supF_year": 2021,
+      "bic_selected_break": null,
+      "bic_no_break": -70.09,
+      "bic_1break": -70.09,
+      "delta_BIC": 0.0,
+      "verdict": "no significant break"
+    },
+    "Finance": {
+      "supF": 23.86,
+      "supF_year": 2021,
+      "bic_selected_break": 2021,
+      "bic_no_break": -36.92,
+      "bic_1break": -45.6,
+      "delta_BIC": 8.68,
+      "verdict": "significant break 2021"
+    },
+    "IT": {
+      "supF": 4.03,
+      "supF_year": 2020,
+      "bic_selected_break": null,
+      "bic_no_break": -54.38,
+      "bic_1break": -54.38,
+      "delta_BIC": 0.0,
+      "verdict": "no significant break"
+    },
+    "Scientific_Research": {
+      "supF": 2.21,
+      "supF_year": 2020,
+      "bic_selected_break": null,
+      "bic_no_break": -56.79,
+      "bic_1break": -56.79,
+      "delta_BIC": 0.0,
+      "verdict": "no significant break"
+    },
+    "Public_Admin": {
+      "supF": 5.77,
+      "supF_year": 2021,
+      "bic_selected_break": 2021,
+      "bic_no_break": -53.79,
+      "bic_1break": -55.02,
+      "delta_BIC": 1.23,
+      "verdict": "no significant break"
+    }
+  },
+  "ITS_HAC_break2019": {
+    "Health_vs_Manufacturing": {
+      "b7": -0.0179,
+      "HAC_SE": 0.0034,
+      "t": -5.32,
+      "p": 0.0,
+      "DW": 3.02
+    },
+    "Health_vs_Public_Admin": {
+      "b7": 0.023,
+      "HAC_SE": 0.0066,
+      "t": 3.48,
+      "p": 0.0005,
+      "DW": 2.23
+    },
+    "Health_vs_Education": {
+      "b7": -0.0004,
+      "HAC_SE": 0.0056,
+      "t": -0.07,
+      "p": 0.9479,
+      "DW": 2.87
+    }
+  },
+  "health_slope_change_2019": {
+    "pre_2016_2019": 0.0041,
+    "post_2019_2024": -0.0066,
+    "slope_change": -0.0107
+  },
+  "covid_decomposition_pp": {
+    "pre_VBP_2017_2019": 0.59,
+    "VBP_COVID_2020_2022": -0.52,
+    "post_COVID_2023_2024": -1.38
+  },
+  "ratio_changes": {
+    "2019_to_2022": -0.0175,
+    "2022_to_2024": -0.0323
+  },
+  "cross_industry_2023_to_2024": {
+    "Health": -0.038,
+    "Education": -0.0112,
+    "Manufacturing": 0.009,
+    "Finance": -0.011,
+    "IT": 0.0049,
+    "Scientific_Research": -0.007,
+    "Public_Admin": -0.0449
+  },
+  "hospital_mechanism_chain": {
+    "source": "中国卫生健康统计年鉴 4-4-1 公立医院收入与支出 2010-2024",
+    "drug_share_of_medical_rev_pct": {
+      "2010": 46.6,
+      "2014": 42.2,
+      "2015": 40.9,
+      "2016": 38.7,
+      "2017": 35.3,
+      "2018": 32.7,
+      "2019": 32.3,
+      "2020": 31.0,
+      "2021": 29.4,
+      "2022": 29.2,
+      "2023": 27.9,
+      "2024": 26.5
+    },
+    "personnel_share_of_cost_pct": {
+      "2010": 24.0,
+      "2014": 22.2,
+      "2015": 30.6,
+      "2016": 31.7,
+      "2017": 33.3,
+      "2018": 34.4,
+      "2019": 36.0,
+      "2020": 36.5,
+      "2021": 36.2,
+      "2022": 37.5,
+      "2023": 38.1,
+      "2024": 39.2
+    },
+    "drug_cost_share_pct": {
+      "2010": 36.2,
+      "2014": 34.9,
+      "2015": 33.3,
+      "2016": 32.2,
+      "2017": 30.3,
+      "2018": 28.6,
+      "2019": 29.4,
+      "2020": 26.3,
+      "2021": 25.4,
+      "2022": 24.0,
+      "2023": 24.0,
+      "2024": 22.5
+    },
+    "key_findings": {
+      "drug_share_decline_2015_to_2024": "40.9% -> 26.5% (VBP-era: 32.3% 2019 -> 26.5% 2024)",
+      "inpatient_drug_cost_per_visit_decline": "3259.6 yuan (2015) -> 2027.7 yuan (2024), -37.8%",
+      "personnel_share_rise": "30.6% (2015) -> 39.2% (2024) while health wages fell relative to average -> workforce expansion + per-worker compression",
+      "causal_chain": "VBP(2019) -> drug revenue share fell -> hospital revenue de-drugged -> performance pay (tied to dept revenue) growth slowed/reversed -> health wage ratio declined"
+    },
+    "per_worker_personnel_cost": {
+      "source": "中国卫生健康统计年鉴 2-1-2 (人员数) + 4-4-1 (人员经费/机构数)",
+      "series_yuan": {
+        "2015": 100948,
+        "2017": 118851,
+        "2018": 127278,
+        "2019": 139203,
+        "2020": 135359,
+        "2021": 144061,
+        "2023": 161936,
+        "2024": 164449
+      },
+      "findings": {
+        "2019": "139,203 yuan",
+        "2020": "135,359 yuan (-2.8%, first decline, VBP launch)",
+        "2023": "161,936 yuan",
+        "2024": "164,449 yuan (+1.6% vs ~6-9%/yr 2017-2023, growth collapse)",
+        "mechanism": "Hospital-level per-worker comp growth collapsed in 2024 (+1.6% vs 6-9%/yr), synchronous with NBS industry wage decline (-0.4%). 2020 dip (-2.8%) coincides with VBP launch. Directly documents VBP-coupling mechanism at hospital level."
+      }
+    }
+  },
+  "ITS_break_year_sensitivity": {
+    "Manufacturing": {
+      "2018": {
+        "b7": -0.014,
+        "p": 0.0052
+      },
+      "2019": {
+        "b7": -0.0179,
+        "p": 0.0
+      },
+      "2020": {
+        "b7": -0.0178,
+        "p": 0.0001
+      }
+    },
+    "Public_Admin": {
+      "2018": {
+        "b7": 0.0246,
+        "p": 0.0055
+      },
+      "2019": {
+        "b7": 0.023,
+        "p": 0.0005
+      },
+      "2020": {
+        "b7": 0.0323,
+        "p": 0.0
+      }
+    },
+    "Education": {
+      "2018": {
+        "b7": 0.0137,
+        "p": 0.0019
+      },
+      "2019": {
+        "b7": -0.0004,
+        "p": 0.9479
+      },
+      "2020": {
+        "b7": -0.005,
+        "p": 0.361
+      }
+    }
+  },
+  "P2_provincial_DID_REAL": {
+    "source": "30省NBS分省年度数据(用户下载) 2016-2024, 30/31省(缺浙江)",
+    "panel_file": "nbs_raw/provincial_panel_raw.csv",
+    "TWFE_continuous_intensity": {
+      "beta": -0.000111,
+      "SE": 0.00036,
+      "t": -0.31,
+      "p": 0.7585,
+      "CI": "[-0.000816,0.000595]",
+      "verdict": "NOT significant"
+    },
+    "R1_vs_R2_binary": {
+      "beta": 0.0038,
+      "SE": 0.0289,
+      "p": 0.895,
+      "verdict": "NOT significant, wrong sign"
+    },
+    "cross_province_2019_2024": {
+      "r": -0.34,
+      "p": 0.0679,
+      "R2": 0.11,
+      "slope": -0.000436,
+      "verdict": "marginally significant (p=0.068), weak"
+    },
+    "five_province_validation": {
+      "Guangdong_2024": 196745,
+      "Jiangsu_2024": 164574,
+      "Shandong_2024": 130421,
+      "Henan_2024": 99230,
+      "Sichuan_2024": 132251,
+      "verdict": "all 5 declined (mean -1.8%), REPRODUCIBLE"
+    },
+    "conclusion": "P2 (intensity scaling) NOT supported by real provincial panel. Original strong DID (β=-0.0009) was from 26 estimated provinces and is not reproducible. Only cross-province r=-0.34 (p=0.068) weakly suggestive. 5-province confirmed decline holds. P2 must be honestly downgraded to \"not supported / inconclusive\" in manuscript."
+  }
+}
